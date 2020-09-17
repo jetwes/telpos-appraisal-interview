@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Jetwes\TelposAppraisalInterview\Tests;
 
 class ExampleTest extends TestCase
 {
