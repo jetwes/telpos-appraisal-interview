@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "jetwes/telpos-appraisal-interview",
+    "description": "This package provides a guide for regular employee interviews",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "jetwes",
+        "telpos-appraisal-interview"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/jetwes/vendor-appraisal-interview",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Jens Twesmann",
+            "email": "j.twesmann@star-media.biz",
+            "homepage": "https://twesmann.de",
             "role": "Developer"
         }
     ],
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Jetwes\\TelposAppraisalInterview\\": "src",
+            "Jetwes\\TelposAppraisalInterview\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Jetwes\\TelposAppraisalInterview\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Jetwes\\TelposAppraisalInterview\\TelposAppraisalInterviewServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "TelposAppraisalInterview": "Jetwes\\TelposAppraisalInterview\\TelposAppraisalInterviewFacade"
             }
         }
     },
